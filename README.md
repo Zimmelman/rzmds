@@ -8,3 +8,8 @@ multidimensional scaling example to generate data for galileo viewer
 ## paired-comparison data to coordinates
 
 we use some routines in numpy and the mds toolkit to generate coordinates for paired-comparison distances.
+
+## viewers for Web Browser, Mac, iPhone, iPad, AppleTV, Apple Vision Pro on the App Store.
+
+Our viewers are simple, some source code is available on github in robzim github.
+
