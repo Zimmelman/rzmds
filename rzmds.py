@@ -2,7 +2,9 @@ import numpy as np
 from scipy.spatial.distance import pdist, squareform
 from sklearn.manifold import MDS
 labels = ['love', 'hate', 'happiness']
-data = np.array([[0, 100, 20], [100, 0, 100], [10, 100 , 0]])
+data = np.array([[0, 1000, 20],
+                 [1000, 0, 1000],
+                 [10, 1000 , 0]])
 distances = pdist(data)
 distance_matrix = squareform(distances, checks=True)
 mds = MDS(n_components=3, dissimilarity='precomputed', verbose=10)
